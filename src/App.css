@@ -1,0 +1,71 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Poppins";
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  font-size: 5em;
+}
+
+.notes-manager {
+  background-color: rgb(68, 68, 68);;
+  width: auto;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  gap: 10px;
+}
+
+.notes {
+  display: flex;
+  justify-content: center;
+}
+
+.notes-container {
+  width: 680px;
+  max-width: 680px;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.p-card {
+  flex: 1 1 wrap;
+  max-width: 100%;
+  box-sizing: content-box;
+  margin-top: 10px;
+}
+
+.par {
+  width: 100%;
+  text-align: justify;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn-dialogue {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn-style {
+  margin-left: 15px;
+}
+
+.btn-card {
+  font-weight: bold;
+  height: 25;
+}
